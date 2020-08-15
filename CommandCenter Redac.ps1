@@ -13,7 +13,7 @@ function Mail-Outline {
 
     function Mail-OutlineA {
     $Mail.Bodyformat = 1
-    #Address to should be 'ServiceCenter@volkswagen.de' for SC Server#
+    #Address to should be '#Snipped#' for SC Server#
     $Mail.To = '#Snipped#'
     $Mail.CC = '#Snipped#'
     $Mail.Attachments.Add($fileName)
